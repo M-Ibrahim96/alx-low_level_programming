@@ -15,7 +15,7 @@ int main(void)
 	long int d;
 	long long e;
 
-	printf("Size of a as int: %lu byte(s)\n", (unsigned long)(sizeof(a));
+	printf("Size of a as int: %lu byte(s)\n", (unsigned long)sizeof(a));
 	printf("Size of b as char: %lu byte(s)\n", (unsigned long)sizeof(b));
 	printf("Size of c as float: %lu byte(s)\n", (unsigned long)sizeof(c));
 	printf("Size of d as long int: %lu byte(s)\n", (unsigned long)sizeof(d));
