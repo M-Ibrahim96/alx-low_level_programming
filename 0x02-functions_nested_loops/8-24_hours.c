@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * jack_baur - prints every mintue in a day
- * Description: prints every mintue per a day.
+ * jack_bauer - prints every mintue in a day
+ * Description: Jack Bauer, starting from 00:00 to 23:59
  */
 void jack_bauer(void)
 {
