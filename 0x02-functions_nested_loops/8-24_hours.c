@@ -2,6 +2,7 @@
 
 /**
  * jack_baur - prints every mintue in a day
+ * Description: prints every mintue per a day.
  */
 void jack_bauer(void)
 {
@@ -16,6 +17,7 @@ void jack_bauer(void)
 			_putchar(':');
 			_putchar((min / 10) + '0');
 			_putchar((min % 10) + '0');
+			_putchar('\n');
 		}
 	}
 }
