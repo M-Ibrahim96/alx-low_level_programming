@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - function to print
- * @n is number of lines
+ * @n: is number of lines
  * Return: Always 0
  */
 
