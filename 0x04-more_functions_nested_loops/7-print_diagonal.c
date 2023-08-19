@@ -5,19 +5,21 @@
  * @n is number of lines
  * Return: Always 0
  */
+
 void print_diagonal(int n)
 {
-	int num, car;
+	int i, j;
 
 	if (n <= 0)
 		_putchar('\n');
-	for (num = 0; num < n; num++)
+	for (i = 0; i < n; i++)
 	{
-		for (car = 0; car < num; car++)
+		for (j = 0; j < i; j++)
 		{
 			_putchar(' ');
 		}
 		_putchar('\\');
 		_putchar('\n');
 	}
+
 }
