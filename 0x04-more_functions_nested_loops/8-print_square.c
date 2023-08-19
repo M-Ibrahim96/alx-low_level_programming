@@ -8,17 +8,18 @@
  */
 void print_square(int size)
 {
-	int l1, l2;
+	int i, j;
 
 	if (size <= 0)
-		printf('\n');
+		_putchar('\n');
 
-	for (l1 = 0; l1 < size; l1++)
+	for (i = 0; i < size; i++)
 	{
-		for (l2 = 0; l2 < size; l2++)
+		for (j = 0; j < (size); j++)
 		{
 			_putchar('#');
 		}
 		_putchar('\n');
 	}
+
 }
