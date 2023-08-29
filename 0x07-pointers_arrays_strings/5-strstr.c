@@ -1,25 +1,32 @@
-/**
-* _strspn - Gets the length of a prefix substring.
-* @s: String where substring will look.
-* @accept: Substring of accepted chars.
-* Return: Length of occurrence.
-*/
-unsigned int _strspn(char *s, char *accept)
-{
-	unsigned int c = 0;
-	char *t = accept;
+#include "main.h"
 
-	while (*s++)
+/**
+* _strstr - function locate
+* @haystack: pointer to char
+* @needle: pointer to char
+* Return: 0
+*/
+
+char *_strstr(char *haystack, char *needle)
+{
+	char *result = haystack, *fneedle = needle;
+
+	while (*haystack)
 	{
-		while (*accept++)
-			if (*(s - 1) == *(accept - 1))
+		while (*needle)
+		{
+			if (*haystack++ != *needle++)
 			{
-				c++;
 				break;
 			}
-		if (!(*--accept))
-			break;
-		accept = t;
+		}
+		if (!*needle)
+		{
+			return (result);
+		}
+		needle = fneedle;
+		result++;
+		haystack = result;
 	}
-	return (c);
+	return (0);
 }
