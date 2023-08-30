@@ -3,7 +3,7 @@
 /**
  * is_prime_number - prime
  * @n: integer params
- * @orthan: integer
+ * @othrn: integer
  * Return: recursion 0 - 1
  */
 int check_prime(int n, int orthn);
