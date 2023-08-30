@@ -3,6 +3,7 @@
 /**
  * _sqrt_recursion - return the sqrt root
  * @n: integer to be enterd
+ * @val: square root
  * Return: sqrt of number
  */
 int square(int n, int val);
