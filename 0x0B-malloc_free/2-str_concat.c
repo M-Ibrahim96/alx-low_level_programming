@@ -30,8 +30,8 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		s2 = '\0';
 
-	size1 = slen(s1);
-	size2 = slen(s2);
+	size1 = _slen(s1);
+	size2 = _slen(s2);
 	m = malloc((size1 + size2) * sizeof(char) + 1);
 
 	if (m == 0)
