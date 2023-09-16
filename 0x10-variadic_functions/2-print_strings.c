@@ -25,4 +25,4 @@ printf("%s", (p == NULL) ? "(nil)" : p);
 }
 printf("\n");
 va_end(valist);
-
+}
